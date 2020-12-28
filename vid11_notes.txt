@@ -1,0 +1,23 @@
+Custom functions
+- basically a set of instructions that you want to be able to call without having to write the set of code over and over again each time
+__
+int main() <--these parantheses is where the fucntion can take inputs
+{
+	return 0; <--return value
+}
+
+() - arguements go in the parameters
+__
+int multiple(int x, int x)
+{
+	return x*y;
+}
+
+1. function definition
+2. function call
+3. function declaration
+
+- you are required to declare but luckily, the definition also serves as a declaration
+- similar to nim. you have to define the function before using it. so a function can't use another function that is declared after it. 
+- probably a good idea to define all the functions before the main() function
+- c++ concept: multi-file programs will have a header file to declare all the functions while another file will contain the declaration 

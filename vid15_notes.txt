@@ -1,0 +1,24 @@
+datatype
+
+- int : whole numbers
+- double/float : floating point values
+- char : characters
+- bool : true or false
+- array : stores stuff
+- structs : custom storage
+- classes : like structs but more general
+
+datatype grouping
+
+- char
+- floating point
+- integral
+- bool (boolean)
+- arrays
+- structs (datastructures)
+- classes (reference types)
+- lot more
+
+- c++ does not allow dynamic variables so no 'var' 
+- static typed, only allow one type for a variable
+

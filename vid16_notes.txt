@@ -1,0 +1,8 @@
+Integral Data Types
+- int size is usually 32 or 16 bits
+- the size depends on the ios
+- the size determines the largest value an int can be
+- bits are 0 and 1.
+- each combination is a different value
+- each added bit increase the combination by 2
+- for negative and positive differentiation, one bit is reserved to represent the sign
