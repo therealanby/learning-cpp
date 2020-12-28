@@ -1,0 +1,14 @@
+intro to functions
+- main() function
+- main() is always called when c++ program starts
+- a function structure:
+
+[identifier]([optional arg],[another optional arg]){}
+
+- a function call structure:
+
+[identifier]([arguements]); 
+
+- arguements are the input to a function and a value can be optionally returned(as stated by the function). when the function does something other than return that modifies something, that's called a side-effect
+
+- when a function returns a value, you will want to store it in a variable
