@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+	return 0;
+}
+
+- main() function runs the code
+- return 0 tells the computere that execution was a success
+- iostream imports functions (std::cout(c out)
+- int main() just means that the main() function returns a function
+- you can remove return 0 eventually
+- << "hello world" will put that into std::cout

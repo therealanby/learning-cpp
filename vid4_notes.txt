@@ -1,0 +1,39 @@
+std::count<<"hello world"
+
+std 
+	- namespace. a namespace is a grouping of code. java equivalent of package.
+	- prevents naming conflicts. just call functions from the different namespace
+::
+	- specifies which namespace the function is from
+
+- in this example, we're calling count from std
+__
+
+using namespace std;
+cout<<"hello world";
+
+- the statement "using namespace ..." will make it so you don't have to always put ...:: before a function
+- bad practice because of conflicts
+- good when starting out because the code will be simple
+__
+
+cout
+- is an object
+- object used to reach a console
+- not a function
+- uses left shift operators instead of paranthese
+- in translation, "hello, world" is given to the object
+cout << "Hello, world!"; //correct 
+cout("Hello, world!"); //if cout was a function 
+__
+
+the definition of class and objects are the same for c++ as in java. a class is a blueprint and objects are created from those
+
+so iostream is a class and cout is an object from that class
+__
+
+operators <<
+- operands are what operators are applies to 
+- << gives the things on the right side to the object/something on the left
+- c++ allows operator overloading
+

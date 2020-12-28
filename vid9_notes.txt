@@ -1,0 +1,7 @@
+Style GUIDE (lmaooo)
+- indent after curly braces to make code look organized
+- always start with a structure so you don't have to worry about closing it later
+- c++ is case sensitive
+- \n for new line
+- // for comments 
+- /* */ for multi-line (like java)
