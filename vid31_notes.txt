@@ -1,0 +1,10 @@
+Review
+- g++ compiler 
+- cin >>
+- cout <<
+- cin and cout are from the std namespace
+- class have methods
+- an instance of a class is an object
+- declaration, definition and calling
+- blah blah blah. pretty simple stuff, not going to write the rest
+

@@ -1,0 +1,36 @@
+Control Flow
+- branching
+- looping
+
+Branching
+- if (else)(else if)
+- switch
+
+Looping
+- while
+- for
+- do while
+- (recursion)(not mentioned)
+
+if(expression){
+
+}else if(expression){
+
+else{
+
+}
+
+- stuff in brackets will run if the expression is true
+- else: if the expression in the preceding if is false, it will run
+- else if: if the first is false and the contition of this one will work
+
+switch(value){
+
+	case value:
+		code...
+		break;
+	default:
+		break;
+}
+-limited. only compares values and run code for each value
+
