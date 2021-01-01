@@ -1,5 +1,5 @@
 # learning-cpp
-https://www.youtube.com/playlist?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG &lt;- using this playlist to learn c++ and posting code here
+https://www.youtube.com/playlist?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG &lt;- using this playlist to learn c++ and posting code here.
 I will be referring some concepts to other languages that I have experience with like Java and Python. 
 stuff I noticed:
 - when using vscode editor and using terminal to compile and run, remember to save
