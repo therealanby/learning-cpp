@@ -1,0 +1,19 @@
+arrays and vectors
+- three main types
+- all are similar
+
+Array
+- int arr[10]
+- [type][identifier] [[size]]
+- set size (static)
+- 0-based
+- last element is size-1
+
+Vector
+- dynamic array
+- list/arraylist
+- friendly to work with
+
+Templatized Array
+- array that is wrapped around an object
+- you can customize this

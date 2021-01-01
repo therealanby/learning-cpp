@@ -1,0 +1,5 @@
+Game Project Intro
+
+- menu: do while loop(while still selecting), switch(number/option to select)
+- the menu can have multiple games
+	- num guess (store guess in array/vector)

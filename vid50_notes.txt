@@ -1,0 +1,14 @@
+Vectors Intro
+- like arrays but its size is dynamic(resizing)
+- std:: vector<int> vec = {1,2,3,4,5); //how to initalize it along with some values
+- vector<int> vec; //normal declaration
+- vector<[type]> [identifier]; //structure
+- vec.push_back([value]); //method for adding to end (normal .add() in java arraylists)
+- the vector will expand by creating a new array double the size of the orignal and copy the old array to the new one
+- vectors can keep track of their own size
+- vec.size() to get size
+- vec[0] //how to get elements from vector
+- vec[items.size()-1] //get last element
+- standard template library. vector is part of it and is a templatized datastructure
+- basically templatized == generics (in Java)
+- templates = generics
