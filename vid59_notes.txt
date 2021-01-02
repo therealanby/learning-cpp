@@ -1,0 +1,23 @@
+Intro to IO Streams
+- typing = input stream
+- the program output = output stream
+
+- plumber terms : streams, flushing stream...
+
+- a stream can be imagined as a tunnel
+- typing creates individual characters flowing through that tunnel in sequence
+- the tunnel deposits the data into a buffer
+- the buffer will send data to the program
+- the program does not get each character one at a time, it get sent chunks of it from the buffer
+- for example, when typing to console as input, the buffer will not send the data until you press enter
+
+- this works with files
+
+- cin from istream for console input
+- input from ifstream for file input
+
+- cout from ostream for console output
+- output from ofstream for file output
+
+-i assume iostream combines both istream and ostream
+- iofstream i assume is the same except for files

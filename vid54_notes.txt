@@ -1,0 +1,11 @@
+STL Array
+
+- templatized array
+- std::array<int,5>
+- statically sized
+- remember their length(.size())
+- arrays are passed as pointers, vectors are passed as copies
+- STL arrays are copied
+- like an array and vector
+- good when you know the size but don't want to work with an array
+- STL array is an array wrapped by an object (this allows it to have useful methods provided by the object wrapper)

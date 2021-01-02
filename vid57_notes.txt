@@ -1,0 +1,12 @@
+Array vs Vector vs STL Array
+
+ vector<int> stuff;
+ vector<int> things = stuff;
+
+- ^ this works with Vectors and STL arrays but not normal arrays
+
+- don't need to worry about speed usually
+- ranking:
+	vector
+	stl array
+	array
