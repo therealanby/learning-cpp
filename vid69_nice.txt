@@ -1,0 +1,11 @@
+Function Overloading
+
+void do_stuff(int x){}
+
+void do_stuff(int x){} //this is not allowed
+
+void do_stuff(int x, int y){} //this is allowed
+
+- the code allows multiple functions with the same name as long as the parameter are different
+- the return type can be different but the parameter must always be different or else there will be a conflict
+- the program will decide which method to run base on the parameters

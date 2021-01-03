@@ -1,0 +1,33 @@
+Four types of functions
+- function
+- method
+- static method
+- constructor
+
+Function
+- Like a method but stands alone 
+ 
+Method
+- Like a function but is tied to a class
+- accessed through an object
+- Object object = new Object; object.do_method()
+- attached to object
+- refers to specific object
+
+Static Method
+- A method but can be accessed through both the class and an object of that class
+- attached to class
+- doesn't refer to a specific object but probably to the class or all objects as a whole
+
+
+Constructor
+- a method to create a class
+- it is called when instantiating a class
+- ctor
+- no return type in name and it doesn't return anything
+- so instead of "int main", it'll be just "main" 
+- no void or types, just the name
+
+
+- Most of this is similar to java. The exception is the function which is not tied to a class. In Java, mostly everything is defined in a class
+

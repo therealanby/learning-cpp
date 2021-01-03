@@ -1,0 +1,21 @@
+Pass by value/reference
+
+void do_stuff(int x){
+
+	//x is passed as a copy.
+	//if the copy is modified, the original stays the same
+	//this is pass by value
+}
+
+- mostly everything in c++ is pass by value (exception is an array)
+- array is passed by pointer/reference. The pointer points to the actual location of the array and that array is the original(not a copy). If its values are changed, the original values will change too
+- a pointer points to a location
+- * is the symbol for pass by pointer
+
+- passing by reference is similar to passing by pointer
+- reference is manually done
+
+-refence means that the variable refers to the same area of memory
+- & is the symbol for pass by reference
+(int &x) to represent pass by reference
+ 
