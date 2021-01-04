@@ -1,0 +1,1 @@
+//stopping here. I just realize how much easier it'll be to not take notes 

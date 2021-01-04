@@ -1,0 +1,12 @@
+- makefile is in folder vid73
+- -o flag for changing the name
+example: g++ vid2.cpp -o hello 
+will give you hello.exe
+
+clean:
+	rm *.o vid73
+
+- this will remove any file ending in .o and the vid73 executable
+- you have to download make before using it
+- note: in vscode, have the compiler and make bin directory in the path before calling make 
+- make clean - to clear .o and .exe files

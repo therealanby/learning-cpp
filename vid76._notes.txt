@@ -1,0 +1,19 @@
+Intro to Namespace
+
+- std is a namespace
+- namespace are used to define scope
+- naming conflicts so namespace is used 
+- prefix things that belong in a namespace to use it
+
+- how to create one:
+namespace [name]{
+
+}
+
+^everything between the bracket is now part of that namespace
+
+1) common functionality
+2) particular company
+3) classification 
+
+- ^ why use namespace

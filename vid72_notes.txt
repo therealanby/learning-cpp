@@ -1,0 +1,25 @@
+Intro to Multifile Compilation
+- hard to compile multifile when compared to Java
+
+Minimum
+- 1) header file
+- 2) implementation file
+- 3) file that uses 1 and 2 (i guess you can call this the main file)
+
+.h is the header, .cpp is the implementation
+you can include them by stating: #include "name.h" which will look in the directory for the file
+
+- if you are creating a function library, you can exclude 3
+- if you are creating an executable, you have to include 3 to run everything
+
+1 - declaration
+2 - definition
+3 - calling
+
+#ifndef [CLASS_NAME]
+#define [CLASS_NAME]
+#enddef
+
+- **this is for g++**
+
+multi-file -> g++ file1.cpp file2.cpp

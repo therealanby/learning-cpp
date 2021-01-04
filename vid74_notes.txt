@@ -1,0 +1,16 @@
+Makefiles
+
+- automate build process
+- main idea: only recompile the changed stuff instead of everything and put everything back together
+
+- you can compile directly into .exe or first compile to .o files which can also be compiled into .exe
+
+- if you change file1, you can just compile that into a .o and link that back with the other .o files
+- this method requires less work
+
+- a makefile automates this
+- make in terminal
+
+- makefile is a text file
+- file1.o:file1.cpp (means that if file1.cpp changes, .o also has to change) 
+g++ -c file1.cpp
