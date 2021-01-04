@@ -1,0 +1,7 @@
+Static 
+
+- relate to class
+- called through class(also object)
+- static stuff can only access static stuff
+- can only be used in a class/struct
+- used with variables and methods

@@ -1,0 +1,23 @@
+Operator Overloading Intro
+
+- variable operator + (variable name1, varibale name2){
+	...
+	return variable
+	}
+- works like a method/function
+- use the "this"(you can actually choose not to include it) keyword to access preceding operand. succeding operators are kept in the parameter
+- defined in a scope(usually a class)
+
+vid94 - insertion and extraction operator
+- you can also overload the >> and << used by cout and cin
+
+- return ostream/istream& (need to be a reference)
+- in the parameters: (std::ostream&[or istream&] output, Object obj)
+
+- body {
+	output << "stuff"
+	return output
+}
+
+-basically, store stuff in the output stream and return it to be used. 
+- this makes it so you don't have to repitively call method calls

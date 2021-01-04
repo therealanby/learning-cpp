@@ -1,0 +1,23 @@
+Constructors & Destructors
+
+- this->[class_variable_name] = [value];
+- or you can do this 
+- [class_variable_name] = [value];
+- If default constructor exist: User me; //you can exclude "()"
+
+Destructors:
+
+~[classname](){ //takes no arguements
+//code
+}
+
+- a destructor is called when an object is destroyed
+	- function ends
+	- program ends
+	- local variable ends
+	- delete operator is called
+
+example:
+
+	User u = new User;
+	delete u;

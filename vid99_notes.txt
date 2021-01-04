@@ -1,0 +1,20 @@
+Polymorphism
+Teacher teacher;
+User& u = teacher;
+
+- teacher is referred to as a user 
+- Use: treat different subclass as the same thing but each one can call a same method that does different things base on the subclass definition 
+
+
+Other Notes:
+- note: there are no interfaces in c++ but you can use a classes to simulate that
+- nested classes are allowed
+- structs can inherit from classes
+- nested structs in classes
+- ... more combinations of nesting and inheritance
+- c++ allows multi-inheritance(meaning one class can inherit more than one class)
+- diamond problem(method conflict between two inherited classes)
+	- use virtual keyword
+	- virtual means that the subclass has to redefine the method
+	- no friend or static keyword
+	- constructor not allowed, destructor allowed

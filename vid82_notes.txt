@@ -1,0 +1,14 @@
+Intro to Structs
+
+Structs vs Classes
+- access modifiers: (public, private, protected)
+	- public is visible by everything
+	- private is visible only by class
+	- protected ??? (I assume subclasses?)
+- structs are default to public/classes are private by default
+- can be changed: 
+	private: ...
+- struct and class are similar basically
+- structs are only used to contain data members(no methods). called POD
+
+- both are used to create objects

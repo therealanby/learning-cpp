@@ -1,0 +1,9 @@
+vid98 - Base class and subclass
+
+- inheritance: subclasses can use stuff from its base class
+- polymorphism: subclasses can be described as its base class(but not the other way around) (IS_A and HAS_A relationship) 
+
+- to define sub-base class relation:
+
+class Student : public User{
+}

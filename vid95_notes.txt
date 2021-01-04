@@ -1,0 +1,8 @@
+Friend Functions
+
+- you can define stuff outside of a class but still allow it to access the stuff inside a class by using the "friend" keyword
+- you can do this by initalizing that method that's outside of the class in the class and add the friend key word to it. Now when you define it outside of the class, it'll be able to access the private stuff
+
+- friend void method()
+- put friend as a prefix to a method
+- method with friend keyword can access private stuff

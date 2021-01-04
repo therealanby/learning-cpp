@@ -1,0 +1,26 @@
+- make the two cpp files(the main and one(or more) definition files) include the header file: #include "file.h"
+
+- to avoid multi-declaration include this in header file:
+#ifndef [random name]
+#define [same random name]
+
+
+... code
+
+#endif (at the end)
+
+- basically, if not defined, define... end if
+
+Multifile Class
+
+Declaration file:
+- remove variables 
+- remove access modifiers
+- prefix the names of all functions (even constructor and destructor with class name ->  User::get_user(){...}
+- the class name has to be the same as the class name in the header
+
+Initialization file(header):
+- only include initialization for methods 
+- variables allowed
+- access mod allowed
+- class structure allowed

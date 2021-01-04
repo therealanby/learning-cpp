@@ -1,0 +1,9 @@
+Operator Overloading Intro
+
+- variable operator + (variable name1, varibale name2){
+	...
+	return variable
+	}
+- works like a method/function
+- use the "this"(you can actually choose not to include it) keyword to access preceding operand. succeding operators are kept in the parameter
+- defined in a scope(usually a class)

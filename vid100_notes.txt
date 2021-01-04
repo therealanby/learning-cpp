@@ -1,0 +1,7 @@
+More Stuff to Check Out:
+- multi-inheritance (advanced OOP)
+- collections(basically datastructures)
+- debugging and testing (unit testing)
+- pointers 
+- Templatized classes
+- dynamic memory 
